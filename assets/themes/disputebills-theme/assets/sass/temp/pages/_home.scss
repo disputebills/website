@@ -1,0 +1,22 @@
+.page-header{
+  background: url() no-repeat center;
+  padding: 20px;
+}
+
+[class*=-container]{
+  @include outer-container;
+}
+
+
+
+.testimonial-container{
+  h2{ text-algin: center; }
+
+  li{
+    /*
+    @include media($tablet){
+      @include span-columns(3 of 12);
+    }
+    */
+  }
+}
