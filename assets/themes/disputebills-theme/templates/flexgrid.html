@@ -1,0 +1,77 @@
+[raw]
+[css]
+.flexbox .flex-card-list {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px;
+}
+
+.flexbox .flex-card-listitem {
+    display: flex;
+    margin-bottom: 40px;
+}
+  
+@media all and (min-width: 40em) {
+  .flex-card-list li {    
+  }
+  .no-flexbox .flex-card-list li {    
+    float: left;
+  }
+}
+
+@media all and (min-width: 40em) and (max-width: 60em) {
+  .no-flexbox .flex-card-list li:nth-child(2n+1) {    
+    clear: both;
+  }
+}
+
+@media all and (min-width: 60em) {
+  .flex-card-list li {    
+  }
+  .no-flexbox .flex-card-list li:nth-child(3n+1) {    
+    clear: both;
+  }
+}
+
+.flexbox .flex-card {
+    display: flex;
+    flex-direction: column;
+}
+
+.flexbox .flex-card-content {
+    display: flex;
+    flex: 1 0 auto;
+    flex-direction: column;
+}
+
+.flexbox .flex-card-content p {
+    flex: 1 0 auto;
+}
+
+article.article {
+    padding: 6px;
+    border: 1px solid #eeeeee;
+    border-radius: 2px;
+}
+[/css]
+[/raw]
+[raw]
+<div class="flexbox">
+<ul class="flex-card-list">
+[loop type="post" count="50"]
+	<li class="flex-card-listitem col-xs-12 col-sm-6 col-md-6 col-lg-4">
+		<div class="flex-card">
+			<div class="flex-card-image">
+				[field image]
+			</div>
+			<div class="flex-card-content">
+			<h3 class="flex-card-heading"><a href="[field url]">[field title]</a></h3>
+				<p class="flexp">[field excerpt]</p>
+				<a href="[field url]" class="flex-card-button btn btn-default">Read More</a>
+			</div>
+		</div>
+	</li>
+[/loop]
+</ul>
+<div>
+[/raw]

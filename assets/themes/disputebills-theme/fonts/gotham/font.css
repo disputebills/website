@@ -1,0 +1,96 @@
+@font-face {
+  font-family: 'Gotham Bold';
+  src: url('Gotham-Bold.eot'); /* IE9 Compat Modes */
+  src: url('Gotham-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('Gotham-Bold.woff') format('woff'), /* Modern Browsers */
+       url('Gotham-Bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('Gotham-Bold.svg#6a327a217ddd10461b1acdc4d224fee0') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  400;
+}
+
+@font-face {
+  font-family: 'Gotham Medium';
+  src: url('Gotham-Medium.eot'); /* IE9 Compat Modes */
+  src: url('Gotham-Medium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('Gotham-Medium.woff') format('woff'), /* Modern Browsers */
+       url('Gotham-Medium.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('Gotham-Medium.svg#bdc473fae2f64b1c45b8886bcff81bae') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  400;
+}
+
+@font-face {
+  font-family: 'Gotham Light';
+  src: url('Gotham-Light.eot'); /* IE9 Compat Modes */
+  src: url('Gotham-Light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('Gotham-Light.woff') format('woff'), /* Modern Browsers */
+       url('Gotham-Light.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('Gotham-Light.svg#bf16822e282b4d885cff891f3a65335d') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  200;
+}
+
+@font-face {
+  font-family: 'Gotham Light Italic';
+  src: url('Gotham-LightItalic.eot'); /* IE9 Compat Modes */
+  src: url('Gotham-LightItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('Gotham-LightItalic.woff') format('woff'), /* Modern Browsers */
+       url('Gotham-LightItalic.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('Gotham-LightItalic.svg#aabee2733b9e804ef6d288e82f81e260') format('svg'); /* Legacy iOS */
+       
+  font-style:   italic;
+  font-weight:  200;
+}
+
+@font-face {
+  font-family: 'Gotham Book Italic';
+  src: url('Gotham-BookItalic.eot'); /* IE9 Compat Modes */
+  src: url('Gotham-BookItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('Gotham-BookItalic.woff') format('woff'), /* Modern Browsers */
+       url('Gotham-BookItalic.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('Gotham-BookItalic.svg#3306677ba9cb099a0feef3c60eec633b') format('svg'); /* Legacy iOS */
+       
+  font-style:   italic;
+  font-weight:  400;
+}
+
+
+
+body {
+    font-family: "Gotham Light",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    line-height: 1.42857;
+    color: #494949;
+    background-color: #fff;
+}
+
+.font-gotham-bold {
+    font-family: "Gotham Bold";
+    font-weight: 400;
+}
+
+.font-gotham-medium {
+    font-family: "Gotham Medium";
+}
+
+.font-gotham-light {
+    font-family: "Gotham Light";
+}
+
+.font-gotham-light {
+    font-family: "Gotham Light Italic";
+}
+
+.font-gotham-book-italic {
+    font-family: "Gotham Book Italic";
+    font-weight: 400;
+}
+
+.smooth-aliasing, .font-gotham-bold, .font-gotham-medium, .btn, .body-content strong {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}

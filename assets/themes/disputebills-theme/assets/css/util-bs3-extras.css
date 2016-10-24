@@ -1,0 +1,178 @@
+/* Bootstrap Stacked Rows */
+.row.row-grid [class*="col-"] + [class*="col-"] {
+    margin-top: 15px;
+}
+
+@media (min-width: 1200px) {
+    .row.row-grid [class*="col-lg-"] + [class*="col-lg-"] {
+        margin-top: 0;
+    }
+}
+@media (min-width: 992px) {
+    .row.row-grid [class*="col-md-"] + [class*="col-md-"] {
+        margin-top: 0;
+    }
+}
+@media (min-width: 768px) {
+    .row.row-grid [class*="col-sm-"] + [class*="col-sm-"] {
+        margin-top: 0;
+    }
+}
+
+/* Bootstrap No Gutters */
+.no-gutter > [class*='col-'] {
+    padding-right:0;
+    padding-left:0;
+}
+
+/* Custom Container fluid */
+.container-fluid-30 {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.container-fluid-max {
+    max-width: 1230px;
+}
+@media (min-width: 768px) {
+    .container.container-mixed {
+        width: 98%;
+        max-width: 1150px;
+    }
+}
+@media (min-width: 640px) and (max-width: 767px) {
+    .container.container-mixed {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+}
+@media (min-width: 481px) and (max-width: 640px) {
+    .container.container-mixed {
+        padding-left: 30px;
+        padding-right: 30px;
+        width: 100%;
+    }
+}
+@media (min-width: 1200px) {
+    .container.container-mixed {
+        width: 1170px;
+    }
+}
+
+
+
+/* xxl button size */
+.btn-xxl, 
+.btn-group-xxl > .btn {
+    padding: 14px 26px;
+    font-size: 20px;
+    line-height: 1.3333333;
+    border-radius: 4px;
+}
+
+
+/* Fonts */
+.font-sans-serif    { font-family: "Brandon Text", "Helvetica Neue", "Helvetica", "Arial", sans-serif; }
+.font-serif         { font-family: 'Liberation Serif','DejaVu Serif', Times, 'Times New Roman', serif;                  }
+.font-monospace     { font-family: 'Liberation Mono','DejaVu Sans Mono', Courier, 'Courier New', Monaco, monospace;     }
+.small-caps         { font-variant: small-caps; }
+
+.fw-3, .fw-light {
+  font-weight: 300;
+}
+.fw-4, .fw-normal, .fw-regular, .fw-reg {
+  font-weight: 400;
+}
+.fw-5, .fw-medium {
+  font-weight: 500;
+}
+.fw-7, .fw-heavy, .fw-bold {
+  font-weight: 700;
+}
+.fw-9, .fw-black {
+  font-weight: 900;
+}
+.fs-09 {
+  font-size: .9rem;
+}
+.fs-10-r {
+  font-size: 1rem;
+}
+.fs-11-r {
+  font-size: 1.1rem;
+}
+.fs-12-r {
+  font-size: 1.2rem;
+}
+.fs-13-r {
+  font-size: 1.3rem;
+}
+.fs-14-r {
+  font-size: 1.4rem;
+}
+.fs-15-r {
+  font-size: 1.5rem;
+}
+.fs-16-r {
+  font-size: 1.6rem;
+}
+.fs-17-r {
+  font-size: 1.7rem;
+}
+.fs-18-r {
+  font-size: 1.8rem;
+}
+.fs-19-r {
+  font-size: 1.9rem;
+}
+.fs-20-r {
+  font-size: 2.0rem;
+}
+.fs-21-r {
+  font-size: 2.1rem;
+}
+.fs-22-r {
+  font-size: 2.2rem;
+}
+.fs-23-r {
+  font-size: 2.3rem;
+}
+.fs-24-r {
+  font-size: 2.4rem;
+}
+.fs-25-r {
+  font-size: 2.5rem;
+}
+.fs-26-r {
+  font-size: 2.6rem;
+}
+.fs-27-r {
+  font-size: 2.7rem;
+}
+.fs-28-r {
+  font-size: 2.8rem;
+}
+.fs-29-r {
+  font-size: 2.9rem;
+}
+.fs-30-r {
+  font-size: 3.0rem;
+}
+
+
+/* Fixes */
+.jumbotron, .bg-cover {
+  background-size: cover;
+}
+
+
+.bg-primary-light {
+  background: #ecf6fb;
+}
+.bg-black-30 {
+  background-color: #f9f9f9;
+}
+.text-white {
+  color: #fff;
+}
