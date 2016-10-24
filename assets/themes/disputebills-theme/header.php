@@ -262,7 +262,6 @@
   margin-bottom: 15px;
 }
 
-
 @media (max-width: 767px) {
 .navbar-autocollapse .navbar-toggle {
   display: -webkit-box!important;
@@ -284,6 +283,141 @@
 img {
 	width: 100%;
 	height: auto;
+}
+.page-template-page-advocate .jumbotron {
+  background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.4), transparent), url(http://disputebills.com/assets/uploads/3-copy.png) no-repeat center;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.4), transparent), url(http://disputebills.com/assets/uploads/3-copy.png) no-repeat center;
+  background-size: cover;
+  height: 500px;
+  background-position: top right;
+}
+.page-template-page-advocate .jumbotron {
+  background: url(https://disputebills.com/assets/uploads/2016/05/working_yk8yee.jpg) no-repeat center;
+  height: auto !important;
+}
+@media screen and (min-width: 768px) {
+  .page-template-page-advocate .jumbotron {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+}
+.page-template-page-advocate .header-text {
+  padding-bottom: 0px !important;
+}
+.page-template-page-advocate .header-text .header-links {
+  margin-top: 5rem;
+}
+.page-template-page-advocate .callout h3 em:after {
+  position: absolute;
+  top: 43px;
+  background-image: url(http://disputebils16.staging.wpengine.com/assets/uploads/2016/08/underline.png);
+  background-size: 87%;
+  display: inline-block;
+  width: 168px;
+  height: 22px;
+  content: "";
+  background-repeat: no-repeat;
+  left: 0;
+}
+.page-template-page-advocate .callout h3 em {
+  border-bottom: none !important;
+  position: relative;
+}
+.page-template-page-advocate .callout h3 {
+  font-size: 36px;
+  color: #fff;
+}
+.page-template-page-advocate .callout h3 em {
+  border-bottom: 3px solid #fff;
+}
+.page-template-page-advocate .callout-footer-btn {
+  margin-left: 30px;
+}
+.page-template-page-advocate .callout h3 {
+  font-size: 36px;
+  color: #fff;
+}
+.page-template-page-advocate .callout h3 em {
+  border-bottom: 3px solid #fff;
+}
+.page-template-page-advocate .callout-footer-btn {
+  margin-left: 30px;
+}
+.page-template-page-advocate .callout .only-x-price {
+  font-family: "Covered By Your Grace";
+  font-style: normal;
+  font-weight: normal;
+  position: absolute;
+  right: 69px;
+  top: -54px;
+  text-align: center;
+  color: #FFF;
+  -webkit-transform: rotate(15deg);
+  transform: rotate(15deg);
+  font-size: 38px;
+}
+.page-template-page-advocate .callout .only-x-price:after {
+  content: '';
+  position: absolute;
+  max-width: 100%;
+  top: 52px;
+  right: 60px;
+  width: 60px;
+  height: 60px;
+  background: url("https://www.clickdesk.com/assets/images/get-started-arrow.png") no-repeat;
+  background-size: 60px 60px;
+}
+.page-template-page-advocate .how-it-works [class*='col-'] {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -ms-grid-row-align: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.page-template-page-advocate .how-it-works .icon-box-circle-bg-center {
+  line-height: 2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  width: 100px;
+  height: 100px;
+  background: #0097db;
+  color: #fff;
+  border-radius: 50%;
+  font-size: 32px;
+  margin-bottom: 20px;
+  text-align: center;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  margin-bottom: 20px;
+  background-color: #084f70;
+}
+.page-template-page-advocate .our-guarantee .image-block {
+  background: url("http://disputebills.com/assets/uploads/2016/01/older-couple.jpg") no-repeat center;
+  background: url(http://i.istockimg.com/image-zoom/77027747/3/380/253/stock-photo-77027747-architect-presenting-a-new-project-on-tablet-to-a-couple.jpg) no-repeat center;
+  background-size: cover;
+  background-position: top;
+  height: 100%;
+  position: absolute;
+  width: 50%;
+}
+.page-template-page-advocate .our-guarantee .image-block-left {
+  left: 0;
+}
+.page-template-page-advocate .our-guarantee .checkmark-list li {
+  font-size: 24px;
 }
 </style>
 <!-- Google Tag Manager -->
